@@ -1,13 +1,86 @@
-<!DOCTYPE html>
-<html lang="en-US">
+<html>
   <head>
-    <meta charset="utf-8">
-    <title>Apply JavaScript example</title>
+
+    <script>
+
+    const myFunction = () => {
+      document.querySelector(".myDIV").classList.add("hideDIV");
+      document.querySelector(".button").classList.add("button2");
+      document.querySelector(".button").innerHTML="Tack för ditt köp!"
+      document.querySelector(".body").classList.add("body2");
+    }
+
+let mystring = "This is my string";
+let mynumber = 5.0;
+let mybool = false;
+
+
+let myString2 = "This is also a string";
+
+let combinesstrings = mystring + myString2;
+
+    </script>
+
+    <style>
+
+    .myDIV {
+
+      background-color: yellow;
+      font-size: 50px;
+
+
+
+   }
+
+.hideDIV{
+  display: none;
+
+}
+
+.button{
+background-color: : grey;
+font-size: 30px;
+
+}
+
+.button2{
+  background-color: lightgreen;
+  font-size: 50px;
+
+}
+
+.body{
+background-color: lightblue;
+
+}
+
+.body2 {
+background-color: blue;
+
+}
+   </style>
+
+
+
   </head>
-  <body>
-    <button>Click me</button>
 
 
+  <body class= "body">
+
+
+
+
+<div>
+
+  <div class="myDIV">
+  50%-endast idag!
+  </div>
+
+<button class="button" onclick="myFunction()">Ta del av erbjudandet</button>
+
+
+
+</div>
 
 
   </body>
