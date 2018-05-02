@@ -1,10 +1,8 @@
-const key = "8c2fb61b59994b20a6093df0a36e6eac"
 
+url = `https://newsapi.org/v2/everything?q=sleep + brain + recovery &from=2018-03-01&language=en&sortBy=publishedAt&apiKey=${key}`
 
-let url = `https://newsapi.org/v2/everything?q=superfood + antioxidants &from=2018-04-01&language=en&sortBy=publishedAt&apiKey=${key}`
-
-const recievedNews = (newsdata) => {
-    const articlesDiv = document.querySelector(".articles")
+const recievedNews2 = (newsdata) => {
+    const articlesDiv = document.querySelector(".articles2")
     //articles is an object in the JSON.
 
     newsdata.articles.forEach((article,index) => {
@@ -16,19 +14,14 @@ if(index<2){
       div.innerHTML = `<h2>${article.title}</h2>
       `
 
-
       articlesDiv.appendChild(div)
 
       //This fetches and add images to our articles
-/*const img = document.createElement("img")
-      img.src = article.urlToImage
-      div.appendChild(img)*/
 
       const imgdiv = document.createElement("div")
       imgdiv.className = "image-div"
             imgdiv.style = "background-image: url('" + article.urlToImage + "'); background-size:cover;"
             div.appendChild(imgdiv)
-
 
       const description = document.createElement("p")
       description.innerHTML = article.description
@@ -48,4 +41,4 @@ if(index<2){
 
 fetch(url)
   .then(response => response.json())
-  .then(recievedNews)
+  .then(recievedNews2)

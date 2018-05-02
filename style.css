@@ -1,7 +1,5 @@
 
-.content {
-       display: flex;
-       justify-content: center;
+.container {
        background: #FAEBD7;
  }
 
@@ -24,156 +22,166 @@
 }
 
 .header2 {
-          height: 100px;
+          height: 10px;
           background-color: #FAEBD7;
     }
 
 
+    .senastenytt {
 
- .left {
-        width: 15%;
-}
-
-.left img{
-        width: 100px;
-        display: block;
-        border: 2px solid black;
-        margin-left: 30px;
-        margin-bottom: 5px;
-
-}
-
-
-
-.brain img{
-      border: 1px solid black;
-      cursor: pointer;
-}
-
-.food img{
-      border: 1px solid black;
-      cursor: pointer;
-}
-
-.sleeping img{
-      border: 1px solid black;
-      cursor: pointer;
-}
-
-.sports img{
-      border: 1px solid black;
-      cursor: pointer;
-}
-
-.brain h1 {
-      width: auto;
-      font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
-      font-weight: bold;
-      color: black;
-      font-size: 20px;
-      padding-left: 30px;
-      padding-bottom: 5px
-      cursor: pointer;
-}
-
-.food h1 {
-      width: auto;
-      font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
-      font-weight: bold;
-      color: black;
-      font-size: 20px;
-      padding-left: 30px;
-      padding-bottom: 5px
-      cursor: pointer;
-}
-
-.sleeping h1 {
-      width: auto;
-      font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
-      font-weight: bold;
-      color: black;
-      font-size: 20px;
-      padding-left: 30px;
-      padding-bottom: 5px
-      cursor: pointer;
-}
-
-.sports h1 {
-      width: auto;
-      font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
-      font-weight: bold;
-      color: black;
-      font-size: 20px;
-      padding-left: 30px;
-      padding-bottom: 5px
-      cursor: pointer;
-}
-
- .right {
-    background-color: #FAEBD7;
-    width: 85%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-
-}
-
-
-.articles {
-
-    /*justify-content: center;*/
-    display: flex;
-    flex-wrap: wrap;
-
-
-}
-
-.news {
-  width: 40%;
-  height: auto;
-  padding: 20px;
-  padding-top: 0px;
-
-}
-
-
-.articles img {
-    width: 100%;
-    height: auto;
-    border: 2px solid black;
-    /*cursor: pointer;*/
-
-}
-
-
-.articles h2{
-    width: auto;
-    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
-    font-weight: bold;
-    justify-content: center;
-    color: black;
-    font-size: 20px;
-    font-style: normal;
-    /*cursor: pointer;*/
-}
-
-.articles p{
-    width: 100%;
-    justify-content: center;
-    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
-    letter-spacing: 1px;
-    font-weight: normal;
-    word-wrap: normal;
-    color: black;
-    font-size: 14px;
-
-
-    .a {
-      cursor: pointer;
-      color: black;
+              font-family: 'Helvetica Neue', sans-serif;
+              padding: 10px;
+              padding-left: 0px;
+              font-size: 15px;
+              letter-spacing: 1px;
+              text-align: left;
+              color: black;
+              font-weight: normal;
 
     }
+
+    .senastenyttart p {
+      font-family: 'Helvetica Neue', sans-serif;
+      padding: 10px;
+      font-size: 10x;
+      letter-spacing: 1px;
+      text-align: left;
+      color: black;
+      width: auto;
+
+    }
+
+
+
+
+
+/* h2{
+      width: auto;
+      font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+      font-weight: bold;
+      justify-content: center;
+      color: black;
+      font-size: 15px;
+      font-style: normal;
+
+  } */
+
+
+
+.news {
+  height: auto;
+  padding: 10px;
+  padding-top: 0px;
+  width: 48%;
+
 }
+
+.news p {
+width: 100%;
+justify-content: center;
+font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+letter-spacing: 1px;
+font-weight: normal;
+word-wrap: normal;
+color: black;
+font-size: 14px;
+
+}
+.news img{
+width: 100%;
+padding: 5px;
+
+
+}
+
+.news h2{
+  height: 80px;
+}
+
+.image-div{
+width: 100%;
+height: 300px;
+background-position: center;
+border: 2px solid black;
+
+}
+
+.superfood {
+background-color: grey;
+height: 10px;
+padding border-bottom: 0px;
+font-family: 'Helvetica Neue', sans-serif;
+padding: 30px;
+font-size: 20px;
+font-weight: bold;
+letter-spacing: -1px;
+line-height: 1;
+text-align: left;
+color: #FFFFFF;
+
+}
+
+.bottomline {
+  background-color: grey;
+  height: 10px;
+  padding border-bottom: 0px;
+  font-family: 'Helvetica Neue', sans-serif;
+  padding: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  line-height: 1;
+  text-align: left;
+  color: #FFFFFF;
+}
+
+.sleepline {
+  background-color: grey;
+  height: 10px;
+  padding border-bottom: 0px;
+  font-family: 'Helvetica Neue', sans-serif;
+  padding: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  line-height: 1;
+  text-align: left;
+  color: #FFFFFF;
+
+}
+
+.musclesline {
+background-color: grey;
+height: 10px;
+padding border-bottom: 0px;
+font-family: 'Helvetica Neue', sans-serif;
+padding: 30px;
+font-size: 20px;
+font-weight: bold;
+letter-spacing: -1px;
+line-height: 1;
+text-align: left;
+color: #FFFFFF;
+}
+
+.articles{
+  display: flex;
+  flex-wrap:wrap;
+  }
+
+
+.articles2 {
+  display: flex;
+  flex-wrap: wrap;
+
+  }
+
+
+.articles3 {
+  display: flex;
+  flex-wrap:wrap;
+}
+
 
 .footer{
       position: bottom;
@@ -199,36 +207,7 @@
 }
 
 
-.left {
-      width: 100%;
-      display:flex;
-      justify-content: space-around;
-  }
 
-.left img {
-      height: 80px;
-      width:auto;
-      display: flex;
-      border: 2px solid black;
-      margin-left: auto;
-      margin-bottom: auto;
-      background-color: #FAEBD7;
-      }
-
-
-
-.right {
-      background-color: #FAEBD7;
-      width: 100%;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-
-      }
-
-.article img {
-  width: 100%;
-  }
 
 
 @media (max-width: 600px) {
@@ -247,86 +226,6 @@
           .header2 {
           height: 10px;
           }
-
-
-
-
-
-.left img {
-      height: 50px;
-      width:auto;
-      border: 1px solid black;
-      margin-left: auto;
-      margin-bottom: auto;
-}
-
-
-.brain h1{
-    width:auto;
-    padding:0;
-    font-size: 15px;
-}
-
-.food h1{
-    width:auto;
-    padding:0;
-    font-size: 15px;
-}
-
-.sleeping h1{
-    width:auto;
-    padding:0;
-    font-size: 15px;
-}
-.sports h1{
-    width:auto;
-    padding:0;
-    font-size: 15px;
-}
-
-.brain img{
-    width:auto;
-    padding:0;
-    font-size: 15px;
-}
-
-.food img{
-    width:auto;
-    padding:0;
-    font-size: 15px;
-}
-
-
-.sleeping img{
-    width:auto;
-    padding:0;
-    font-size: 20px;
-}
-
-.sports img{
-    width:auto;
-    padding:0;
-    font-size: 20px;
-  }
-
-
- .article {
-    background-color: #FAEBD7;
-    width: 100%;
-    display:inline-block;
-    justify-content: center;
-    padding-top: 30px;
-    padding-left: 30px;
-    padding-right: 30px;
-}
-
-.article p{
-    width: 100%;
-    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
-    letter-spacing: 1px;
-    font-weight: normal;
-}
-
 
 
 }
