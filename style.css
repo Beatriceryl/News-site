@@ -184,9 +184,6 @@ color: #FFFFFF;
 
 
 
-
-}
-
 @media (max-width: 1281px){
 
 .content {
@@ -195,6 +192,7 @@ color: #FFFFFF;
 
 .header2 {
   height: 40px;
+
 }
 
 
@@ -216,7 +214,27 @@ color: #FFFFFF;
 
           .header2 {
           height: 10px;
+          width: auto;
+          font-size: 14px;
+
           }
+
+
+          .news h2{
+            height: auto;
+            width: auto%;
+            text-align: left;
+             margin-bottom: 30px;
+             font-size: 30px;
+          }
+
+
+          .news {
+            height: auto;
+            width: 100%;
+
+          }
+
 
 
 }
